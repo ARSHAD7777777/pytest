@@ -15,4 +15,5 @@ jobs:
           python-version: 3.0
       - run: pip install -U pytest
       - name: Run pytest
+        run: import pytest
         run: pytest -k "test_locater" 
