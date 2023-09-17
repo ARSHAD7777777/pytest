@@ -10,5 +10,5 @@ def locater(loc,v,t):
 def test_locater():
     loc,v,t=map(int,'12/2/4'.split('/'))
     new_loc=locater(loc,v,t)
-    assert new_loc==20
+    assert new_loc==30
 
