@@ -16,5 +16,5 @@ jobs:
       - run: pip install -U pytest
       - name: testing
         run: | 
-           /test # pytest_function.py
+           /pytest/pytest_function.py
            pytest -k "test_locater"
