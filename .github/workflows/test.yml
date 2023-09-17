@@ -14,6 +14,6 @@ jobs:
         with:
           python-version: 3.0
       - run: pip install -U pytest
-      - working-directory: /.github
-      
-      - run: pytest_function.py 
+      - name: script
+        working-directory: pytest
+        run: pytest_function.py 
