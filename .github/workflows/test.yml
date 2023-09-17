@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: 3.0
       - run: pip install -U pytest
-      - run: pytest -k "test_locater" 
+      - run: pytest -m "test_locater" 
