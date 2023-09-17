@@ -17,5 +17,5 @@ jobs:
       - name: testing
         run: | 
            import pandas as pd
-           pytest  ./scripts/locater.py
+           pytest  ./scripts/current.py
         
