@@ -11,7 +11,7 @@ def pattern_rec(array):
         else:
             obj='reactangle'
     return obj
-def test_pattern_rec():
+def pattern_rec._test():
         array=np.array[[1,2,4],[5,6,7]]
         obj=pattern_rec(array)
         assert obj=='rectangle'
