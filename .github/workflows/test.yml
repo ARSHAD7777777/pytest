@@ -16,4 +16,4 @@ jobs:
       - run: pip install -U pytest
       - name: testing
         run: | 
-           pytest  pytest_function.py
+           pytest  current.py
