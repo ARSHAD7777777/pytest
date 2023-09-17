@@ -15,5 +15,6 @@ jobs:
           python-version: 3.0
       - run: pip install -U pytest
       - name: testing
+        working-directory: /.scripts
         run: | 
            pytest  current.py
