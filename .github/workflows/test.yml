@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: 3.0
       - run: pip install -U pytest
-      - run: import pytest 
+      - run: pytest_function.py 
