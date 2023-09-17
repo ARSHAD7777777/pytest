@@ -16,5 +16,5 @@ jobs:
       - run: pip install -U pytest
       - name: testing
         run: | 
-           pytest  ./scripts/current.py
+           pytest  ./scripts/locater.py
         
