@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+import numpy as np
 import seq_func
 def test_pattern_rec():
         array=np.array[[1,2,4],[5,6,7]]
